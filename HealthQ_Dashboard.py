@@ -146,7 +146,7 @@ with tabs[0]:
     While working with ASU Campus Health Services, it was highlighted that patient wait times are a vital parameter that needs to be studied to provide better and faster service to the students. This metric also helps the leadership in planning and allocating resources as needed.
     Hence, I took on the task to devise a dashboard which will not only show patient appointment wait time trends, but also illustrate predicted wait time, based on user inputs.
     
-    ###Project Overview:
+    Project Overview:
     I took the following path for this project:
     1. **Data Creation**: Since actual data cannot be used due to HIPAA violation risk, I created a dummy data, covering all relevant fields which impact wait time.
     2. **Pre-Processing**: Once this was created, performed normalization, scaling, and encoding to ensure the dataset is in a standardized, and usable format.
@@ -155,13 +155,13 @@ with tabs[0]:
     5. **Performance Comparison**: Compared the performance of these models in a tabular form, along with graphs.
     6. **Recommendation**: Based on these metrics, recommendation was made for the optimal ML model to use for prediction in this case.
     7. **Dashboard Development**: Built this dashboard to showcase the following:
-        -**Historical Trends** Helps to assess hisotrical trend of patient wait times for one of all campuses and a particular date range. 
-        -**ML Model Comparison**: Displays performance metrics of all ML models trained with recommendation. Graph for actual vs predicted values for the recommended model is also shown.
-        -**Prediction**: Dynamic, interactive dashboard which accepts user inputs and gives out predicted wait time for selected parameters.
+    **Historical Trends** Helps to assess hisotrical trend of patient wait times for one of all campuses and a particular date range. 
+    **ML Model Comparison**: Displays performance metrics of all ML models trained with recommendation. Graph for actual vs predicted values for the recommended model is also shown.
+    **Prediction**: Dynamic, interactive dashboard which accepts user inputs and gives out predicted wait time for selected parameters.
 
     This application is designed to provide insights and empower leadership in improving clinic performance.
 
-    ###Resource:
+    Resource:
     You can explore the code and files for this project on [My Github Profile](https://github.com/rjoshi38).
     """)
 
