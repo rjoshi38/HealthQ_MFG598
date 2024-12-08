@@ -21,7 +21,7 @@ df = pd.read_csv('/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/process
 df2 = pd.read_csv('/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/dummy_patient_appointment_data.csv') 
 df2["date"] = pd.to_datetime(df2["date"])
 df3 = pd.read_csv('/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/processed_data/testData.csv') 
-plot_directory = '/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/ML Plots'
+plotDir = '/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/ML Plots'
 
 X = df.drop('waitTime', axis=1)
 y = df['waitTime']
@@ -79,7 +79,7 @@ def addResults(modelName, mae, mse, rmse, r2):
 addResults("Linear Regression", lrmae, lrmse, lrrmse, lrr2)
 addResults("XGBoost", xgmae, xgmse, xgrmse, xgr2)
 addResults("Random Forest", rfmae, rfmse, rfrmse, rfr2)
-addResults("LightGBM", lgbmae, lgbmse, lgbrmse, lgbr2)
+addResults("Light GBM", lgbmae, lgbmse, lgbrmse, lgbr2)
 resultsdf = pd.DataFrame(modelResults)
 print("Model performance comparison: ")
 print(resultsdf)
