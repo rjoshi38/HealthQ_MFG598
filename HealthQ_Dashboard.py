@@ -79,7 +79,7 @@ def addResults(modelName, mae, mse, rmse, r2):
 addResults("Linear Regression", lrmae, lrmse, lrrmse, lrr2)
 addResults("XGBoost", xgmae, xgmse, xgrmse, xgr2)
 addResults("Random Forest", rfmae, rfmse, rfrmse, rfr2)
-addResults("LightGBM", lgbmae, lgbmse, lgbmse, lgbr2)
+addResults("LightGBM", lgbmae, lgbmse, lgbrmse, lgbr2)
 resultsdf = pd.DataFrame(modelResults)
 print("Model performance comparison: ")
 print(resultsdf)
