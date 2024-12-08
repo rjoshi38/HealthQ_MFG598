@@ -122,7 +122,7 @@ def modelandtools():
     models={"Linear Regresion": joblib.load('/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/ML Models/linear_regression.pkl'),
             "XGBoost": joblib.load('/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/ML Models/xgboost.pkl'),
             "Random Forest": joblib.load('/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/ML Models/random_forest.pkl'),
-            "LightGBM": joblib.load('/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/ML Models/random_forest.pkl')}
+            "Light GBM": joblib.load('/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/ML Models/random_forest.pkl')}
     return encoder, scaler, finalFeatures, models
 
 plotDir = ('/Users/rohitjoshi/University/Fall 2024/MFG 598/Project/ML Plots')
